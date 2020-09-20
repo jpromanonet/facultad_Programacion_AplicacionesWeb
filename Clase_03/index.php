@@ -16,4 +16,17 @@
     print('<h2>Hola mundo con comillas simples.</h2>');
     // Print con saltos de linea
     print"<h1>Hola \"mundo\" mostrando comillas en pantalla.</h1>";
+    //
+    // Vamos a ver variables n.n
+    //
+    $a = 'Hola';
+    $b = 'Mundo';
+
+    // Variables concatenadas.
+    echo '<h3> Concatenamos variables y texto. </h3>';
+    echo $a.' - '.$b;
+
+    // Lista de variables.
+    echo '<br><br><h3> Concatenamos variables y texto. </h3>';
+    echo $a,$b;
 ?>
