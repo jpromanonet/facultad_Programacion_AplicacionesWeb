@@ -29,4 +29,13 @@
     // Lista de variables.
     echo '<br><br><h3> Concatenamos variables y texto. </h3>';
     echo $a,$b;
+
+    // Variables con idiomas
+    define('IDIOMA','Castellano');
+
+    echo IDIOMA;
+
+    define('IDIOMA','Castellano');
+
+    echo 'El lenguaje de la Web es: '.IDIOMA;
 ?>
