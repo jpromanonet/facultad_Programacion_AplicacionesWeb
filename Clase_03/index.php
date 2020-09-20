@@ -1,6 +1,9 @@
 <?php
     // Esto es un echo
     echo '<h1>Hola Mundo.</h1>';
+    echo '<h1>Título</h1>';
+    echo '<h2>Sub título</h2>';
+    echo '<p>Parrafo</p>';
     // Ahora vienen los print
     // Print con paréntesis.
     print("Hola mundo con comillas dobles.");
