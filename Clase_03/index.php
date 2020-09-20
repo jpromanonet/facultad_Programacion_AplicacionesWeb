@@ -75,4 +75,14 @@
     $paises = array('Argentina',45,'Uruguay');
 
     echo $paises[1];
+
+    // Forzar el valor del primer indice en el array
+    $paises = array(3=>'Argentina',45,'Uruguay');
+
+    echo $paises[3];
+
+    // Forzar el valor de cualquier indice N
+    $paises = array('Argentina',7=>45,'Uruguay');
+
+    echo $paises[8];
 ?>
