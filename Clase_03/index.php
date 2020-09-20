@@ -8,4 +8,7 @@
     // Print con paréntesis.
     print("Hola mundo con comillas dobles.<br>");
     print('Hola mundo con comillas simples.<br>');
+    // Print con paréntesis.
+    print("<h1>Hola mundo con comillas dobles.</h1>");
+    print('<h2>Hola mundo con comillas simples.</h2>');
 ?>
