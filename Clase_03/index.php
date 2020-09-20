@@ -11,4 +11,6 @@
     // Print con paréntesis.
     print("<h1>Hola mundo con comillas dobles.</h1>");
     print('<h2>Hola mundo con comillas simples.</h2>');
+    // Print con saltos de linea
+    print"<h1>Hola \"mundo\" mostrando comillas en pantalla.</h1>";
 ?>
