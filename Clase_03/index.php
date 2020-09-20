@@ -85,4 +85,9 @@
     $paises = array('Argentina',7=>45,'Uruguay');
 
     echo $paises[8];
+    //
+    // Ver Matrices definidas por el servidor.
+    //
+    echo $_SERVER['HTTP_USER_AGENT'];
+    echo $_SERVER['SERVER_NAME'];
 ?>
