@@ -71,4 +71,8 @@
     $paises = array('Argentina','Brasil','Uruguay');
 
     echo $paises[2];
+
+    $paises = array('Argentina',45,'Uruguay');
+
+    echo $paises[1];
 ?>
