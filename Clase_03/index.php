@@ -67,4 +67,8 @@
 
     echo 'Suma = ',$numeros[2]+$numeros[3]+$numeros[4];
 
+    // La función Array
+    $paises = array('Argentina','Brasil','Uruguay');
+
+    echo $paises[2];
 ?>
