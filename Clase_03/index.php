@@ -38,4 +38,33 @@
     define('IDIOMA','Castellano');
 
     echo 'El lenguaje de la Web es: '.IDIOMA;
+
+    // Arrays en PHP
+    $paises[0] = 'Argentina';
+    $paises[1] = 'Brasil';
+    $paises[2] = 'Uruguay';
+
+    echo $paises[1];
+
+    // Trabajando con Arrays
+    $numeros[0] = 12;
+    $numeros[1] = 5;
+    $numeros[2] = 3;
+
+    echo 'Suma = ',$numeros[0]+$numeros[1]+$numeros[2];
+
+    // Declaración implicita de matrices
+    $numeros[] = 12;
+    $numeros[] = 5;
+    $numeros[] = 3;
+
+    echo 'Suma = ',$numeros[0]+$numeros[1]+$numeros[2];
+
+    // Declaración mixta de matrices
+    $numeros[2] = 12;
+    $numeros[] = 5;
+    $numeros[] = 3;
+
+    echo 'Suma = ',$numeros[2]+$numeros[3]+$numeros[4];
+
 ?>
