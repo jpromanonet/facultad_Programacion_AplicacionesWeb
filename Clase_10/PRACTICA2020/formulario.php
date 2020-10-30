@@ -22,9 +22,9 @@
 
     <!--Formulario -->
     <div class="row">
-        <div class="col-3"></div>
+        <div class="col-2"></div>
 
-        <div class="col-6">
+        <div class="col-8">
             <form method="post" action="formulario_recepcion.php">
                 <hr size="2px" color="black" />
                 <div class="form-group">
@@ -52,27 +52,30 @@
                 <div class="form-group">
                     <input type="checkbox" id="materia3" name="materia3" value="asp_net">
                     <label for="materia3">ASP Net</label>                   
-                </div>                                                            
+                </div>     
 
-                <hr size="2px" color="black" />  
+                <hr size="2px" color="black" />
+
                 <fieldset>
-                <legend>Seleccione su nivel de inglés</legend>
-                    <div class="form-group">
-                        <label>
-                            <input type="radio" name="nivel" value="alta">Alto
-                        </label>
-                    </div>
-                    <div class="form-group">
-                        <label>
-                            <input type="radio" name="nivel" value="medio">Medio
-                        </label>
-                    </div>
-                    <div class="form-group">
-                        <label>
-                            <input type="radio" name="nivel" value="bajo">Bajo
-                        </label>
-                    </div>
-                </fieldset>
+                <legend>Seleccione su nivel de ingles.</legend>
+
+                <div class="form-group">
+                    <label>
+                        <input type="radio" name="nivel" value="alto"> Alto
+                    </label>
+                </div>
+                <div class="form-group">
+                    <label>
+                        <input type="radio" name="nivel" value="medio"> Medio
+                    </label>
+                </div>
+                <div class="form-group">
+                    <label>
+                        <input type="radio" name="nivel" value="bajo"> Bajo
+                    </label>
+                </div>                
+                </fieldset>  
+
                 <hr size="2px" color="black" />
 
                 <div class="form-group">
@@ -82,15 +85,14 @@
                         <option value="sugerencia">Sugerencia</option>
                         <option value="queja">Queja</option>
                     </select>
-                </div>
-                <hr size="2px" color="black" />
+                </div>                                                     
 
                 <button type="submit" class="btn btn-primary btn-block">Enviar</button>  
                 <br><br>                             
             </form>
         </div>
         
-        <div class="col-3"></div>
+        <div class="col-2"></div>
     </div>    
 
     <!-- JavaScript -->
@@ -99,5 +101,8 @@
 
 </body>
 </html>
+
+
+
 
 
